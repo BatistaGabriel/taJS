@@ -1,7 +1,6 @@
 {
   "name": "aula-01",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand test/",
@@ -10,7 +9,8 @@
   },
   "keywords": [],
   "author": "Gabriel Batista",
-  "license": "ISC",
+  "license": "MIT",
+  "description": "",
   "type": "module",
   "engines": {
     "node": "v18.17.0"
