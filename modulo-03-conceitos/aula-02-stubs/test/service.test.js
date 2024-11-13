@@ -44,12 +44,12 @@ describe("Service Test Suite", () => {
     it("should return data without passwords if file is not empty", async () => {
       const dbData = [
         {
-          userName: "user1",
+          username: "user1",
           password: "password1",
           createdAt: new Date().toISOString(),
         },
         {
-          userName: "user2",
+          username: "user2",
           password: "password2",
           createdAt: new Date().toISOString(),
         },
