@@ -13,7 +13,7 @@
   "description": "",
   "type": "module",
   "engines": {
-    "node": "v18.17.0"
+    "node": "v20.18.1"
   },
   "devDependencies": {
     "jest": "^29.7.0"
