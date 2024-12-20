@@ -1,0 +1,23 @@
+{
+  "name": "aula-02-bdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch src/index.js",
+    "test": "npx cucumber-js",
+    "test:dev": "node --watch node_modules/.bin/cucumber-js --fail-fast --format progress --format html:cucumber-report.html",
+    "test:debug": "node --inspect-brk --watch node_modules/.bin/cucumber-js --format progress --format html:cucumber-report.html"
+  },
+  "keywords": [],
+  "author": "Gabriel Batista",
+  "license": "MIT",
+  "description": "",
+  "type": "module",
+  "engines": {
+    "node": "v20.18.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "sinon": "^17.0.1"
+  }
+}
